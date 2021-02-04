@@ -103,13 +103,14 @@ public class WordsInFiles {
         System.out.println("Maximum number of file that a word appeared in:\t" + maxNumber());
         System.out.println("Words that appeared in 3 files: ");
         
-        for(String word : wordsInNumFiles(3)) {
-            System.out.println("\t" + word);
-        }
+        System.out.println("Number of each words that appeared in 5 files: " + wordsInNumFiles(5).size());
+//        for(String word : wordsInNumFiles(3)) {
+//            System.out.println("\t" + word);
+//        }
         
-        printFilesIn("cats");
-        
-        printMap();
+        printFilesIn("sad");
+//        
+//        printMap();
         
     }
     
